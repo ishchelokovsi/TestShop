@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationAD", "LocationAD.csproj", "{6e4beb49-9b4c-fbfb-a111-2086dbf76a2d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldAD", "GoldAD.csproj", "{f8e0cf38-c5cb-f6ea-5eb1-6d9fa2b1fd14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAD", "CoreAD.csproj", "{c9750f53-9e6c-e4ea-88e4-5b7caf195ce7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopAD", "ShopAD.csproj", "{bcb28c6a-2f24-afea-8d14-909a31b901f2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medvedya.select_implementation_property_drawer", "medvedya.select_implementation_property_drawer.csproj", "{2f5986ec-c6a3-9a67-dd21-2897215c2ae0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthAD", "HealthAD.csproj", "{047714fd-3ffa-7e8d-f4b7-767613466dca}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "medvedya.select_implementation_property_drawer_editor", "medvedya.select_implementation_property_drawer_editor.csproj", "{13f691da-928a-1576-c561-3864bb8ce258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0177e04c-4f13-d09d-f36c-f385bb4d61df}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6e4beb49-9b4c-fbfb-a111-2086dbf76a2d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6e4beb49-9b4c-fbfb-a111-2086dbf76a2d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f8e0cf38-c5cb-f6ea-5eb1-6d9fa2b1fd14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f8e0cf38-c5cb-f6ea-5eb1-6d9fa2b1fd14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c9750f53-9e6c-e4ea-88e4-5b7caf195ce7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c9750f53-9e6c-e4ea-88e4-5b7caf195ce7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bcb28c6a-2f24-afea-8d14-909a31b901f2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bcb28c6a-2f24-afea-8d14-909a31b901f2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2f5986ec-c6a3-9a67-dd21-2897215c2ae0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2f5986ec-c6a3-9a67-dd21-2897215c2ae0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047714fd-3ffa-7e8d-f4b7-767613466dca}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047714fd-3ffa-7e8d-f4b7-767613466dca}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13f691da-928a-1576-c561-3864bb8ce258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13f691da-928a-1576-c561-3864bb8ce258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0177e04c-4f13-d09d-f36c-f385bb4d61df}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0177e04c-4f13-d09d-f36c-f385bb4d61df}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617dcf2a6f8c9c74e8eec7ef429a2da9, type: 3}
+  m_Name: LocationForHealthBundle
+  m_EditorClassIdentifier: 
+  Spendable:
+    rid: 1312823947662983176
+  Reward:
+    rid: 1312823947662983177
+  references:
+    version: 2
+    RefIds:
+    - rid: 1312823947662983176
+      type: {class: HealthSpendablePercent, ns: Domains.Health, asm: HealthAD}
+      data:
+        _value: 0.5
+    - rid: 1312823947662983177
+      type: {class: LocationReward, ns: Domains.Location, asm: LocationAD}
+      data:
+        _location: Castle
