@@ -1,14 +1,13 @@
+using Domains.Core;
 using System;
 
 namespace Domains.Location
 {
-    public class LocationManager
+    public class LocationManager : BaseSingleton<LocationManager>
     {
         #region Fields
 
         public event Action<string> OnStateChanged;
-
-        private static LocationManager _instance;
 
         #endregion
 
@@ -16,25 +15,6 @@ namespace Domains.Location
 
         //for simplicity
         public string Value { get; private set; } = "default";
-
-        public static LocationManager Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = new LocationManager();
-                }
-
-                return _instance;
-            }
-        }
-
-        #endregion
-
-        #region Class lifecycle
-
-        private LocationManager() { }
 
         #endregion
 

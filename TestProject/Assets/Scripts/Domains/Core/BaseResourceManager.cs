@@ -2,7 +2,7 @@ using System;
 
 namespace Domains.Core
 {
-    public abstract class BaseResourceManager<TData, TConcrete>
+    public abstract class BaseResourceManager<TData, TConcrete> : BaseSingleton<TConcrete>
         where TData : IComparable<TData>, IEquatable<TData>, IConvertible
         where TConcrete : BaseResourceManager<TData, TConcrete>, new()
     {
@@ -10,24 +10,9 @@ namespace Domains.Core
 
         public event Action<TData> OnStateChanged;
 
-        private static BaseResourceManager<TData, TConcrete> _instance;
-
         #endregion
 
         #region Properties
-
-        public static BaseResourceManager<TData, TConcrete> Instance
-        {
-            get
-            {
-                if (_instance == null)
-                {
-                    _instance = new TConcrete();
-                }
-
-                return _instance;
-            }
-        }
 
         public TData Value { get; private set; }
 
